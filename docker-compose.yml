@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    app:
+        build: .
+        container_name: web_app
+        volumes: 
+            - ./:/usr/share/nginx/html/:ro
+        ports:
+            - 8080:80
+        
