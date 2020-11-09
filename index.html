@@ -3,49 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js"></script>
 </head>
-<body>
+<body id="temafondo">
     <header>
         <hgroup>
-            <h1>Esto es un encabezado</h1>
-            <h2>Subtitulo del encabezado</h2>
-            <h3>Se agrega un titulo nivel h3</h3>
+            <h1>Bienvenidos al entrenamiento de desarrollo web</h1>
+            <h2><mark>Aqui practicaremos conceptos y escenarios</mark></h2>
+            <h3>Iniciemos</h3>
         </hgroup>
     </header>
     <figure>
         <img src="/imagenes/router.png"/>
     </figure>
-    <nav> 
+    <nav id="navegacionprincipal"> 
         <ul>
-            <li>item especial 1</li>
-            <li>item nuevo 2</li>
-            <li>item especial 3</li>
+            <li><strong>item de barra de navegacion 1</strong></li>
+            <li style="background-color: aqua;"><strong>item de barra de navegacion 2</strong></li>
+            <li><strong>item de barra de navegacion 3</strong></li>
         </ul>
     </nav>
-    <aside> 
-        <blockquote>primer elemento</blockquote>
-        <blockquote>segundo elemento</blockquote>
-        <blockquote>tercer elemento</blockquote>
+    <aside id="barralateral"> 
+        <blockquote>Elemento 1 barra lateral</blockquote>
+        <blockquote>Elemento 2 barra lateral</blockquote>
+        <blockquote>Elemento 3 barra lateral</blockquote>
     </aside>
-    <section>
+    <section id="contenidoprincipal">
         <article>
-            <p>noticia 1</p>
-            <p>dato de noticia 1</p>
+            <p><strong>Noticia 1</strong></p>
+            <p><em>dato de noticia 1</em></p>
             <p>terminamos de hablar de noticia 1</p>
         </article>
         <article>
-            <p>noticia 2</p>
+            <p><strong>Noticia 2</strong></p>
             <p>dato de noticia 2</p>
             <p>terminamos de hablar de noticia 2</p>
         </article>
         <article>
-            <p>noticia 3</p>
-            <p>dato de noticia 3</p>
-            <p>terminamos de hablar de noticia 3</p>    
+            <p><strong>Noticia 3</strong></p>
+            <p onclick="alert('hola mundo!..evento generado desde Javascript');">dato de noticia 3</p>
+            <p onmousemove="saludo();">terminamos de hablar de noticia 3</p>    
         </article>    
     </section>
-<footer>
-    Derechos reservados
+<footer id=piedepaginaprincipal>
+    <small>Derechos reservados</small> <address>tlfn:  1111-1111</address>
 </footer>
 </html>

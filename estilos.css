@@ -1,0 +1,28 @@
+#temafondo {
+    background-color: slategray;
+}
+#navegacionprincipal {
+    background-color: yellowgreen;
+}
+#barralateral {
+    background-color: powderblue;
+    float: left;
+    height: 8cm;
+}
+#contenidoprincipal {
+    background-color: salmon;
+    margin-left: 7cm;
+    padding-left: 2cm;
+}
+#piedepaginaprincipal {
+    background-color: yellow;
+}
+li {
+    background-color: azure;
+    display: inline;
+    font-style: italic;
+    font-size: x-large;
+}
+figure img {
+    width: 15cm;
+}
